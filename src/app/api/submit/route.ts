@@ -9,7 +9,12 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: 'Missing sessionId' }, { status: 400 })
     }
 
-    const updateData: any = {
+    const updateData: {
+      updated_at: string;
+      answers?: unknown;
+      score?: number;
+      demographics?: unknown;
+    } = {
       updated_at: new Date().toISOString()
     }
     

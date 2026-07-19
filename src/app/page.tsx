@@ -1,8 +1,8 @@
 "use client"
 
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import Image from 'next/image'
-import { QUIZ_QUESTIONS, Question } from '@/lib/quizConfig'
+import { QUIZ_QUESTIONS } from '@/lib/quizConfig'
 import {
   DEMOGRAPHIC_AGE_RANGES,
   DEMOGRAPHIC_INDUSTRIES,
@@ -175,7 +175,7 @@ export default function Home() {
               Can you guess the city from the interior?
             </h1>
             <p className="text-[#a69bb0] text-base sm:text-lg mb-8 leading-relaxed max-w-md">
-              You will be shown 4 café interiors. For each photo, choose which city you think it's located in from 5 multiple-choice options.
+              You will be shown 4 café interiors. For each photo, choose which city you think it&apos;s located in from 5 multiple-choice options.
             </p>
             <button
               onClick={handleStartGame}
