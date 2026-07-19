@@ -10,24 +10,24 @@ export const QUIZ_QUESTIONS: Question[] = [
     id: 1,
     imageUrl: "/images/cafe_1.jpeg",
     correctCity: "Nicosia",
-    options: ["Nicosia", "Athens", "Valletta", "Istanbul", "Rome"],
+    options: ["Athens", "Nicosia", "Valletta", "Istanbul", "Rome"],
   },
   {
     id: 2,
     imageUrl: "/images/cafe_2.png",
     correctCity: "New York City",
-    options: ["New York City", "Bogotá", "Seattle", "London", "Melbourne"],
+    options: ["Bogotá", "Seattle", "London", "Melbourne", "New York City"],
   },
   {
     id: 3,
     imageUrl: "/images/cafe_3.png",
     correctCity: "Bucharest",
-    options: ["Bucharest", "Paris", "Berlin", "Brussels", "Budapest"],
+    options: ["Paris", "Brussels", "Bucharest", "Berlin", "Budapest"],
   },
   {
     id: 4,
     imageUrl: "/images/cafe_4.png",
     correctCity: "Guangzhou",
-    options: ["Guangzhou", "Tokyo", "Seoul", "Taipei", "Bangkok"],
+    options: ["Tokyo", "Taipei", "Bangkok", "Seoul", "Guangzhou"],
   },
 ];
